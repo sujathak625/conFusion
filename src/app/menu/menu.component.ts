@@ -46,7 +46,7 @@ const DISHES: Dish[] = [
 export class MenuComponent implements OnInit {
    dishes = DISHES;
 
-  selectedDish = DISHES[2];
+  selectedDish = DISHES[0];
   constructor() { }
 
   ngOnInit() {
